@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "High-Resolution Lunar DEM Generation from LRO NAC Stereo Imagery and Accuracy Assessment Using LOLA Data"
+abstract: "High-resolution topographic data of the lunar surface is essential for geological analysis, mission planning, and future lunar exploration. This study presents a comprehensive workflow for generating high-precision Digital Elevation Models (DEMs) using stereo image pairs acquired by the Lunar Reconnaissance Orbiter (LRO) Narrow Angle Camera (NAC). The proposed pipeline integrates radiometric calibration, geometric processing, and advanced stereo matching algorithms to reconstruct 3D terrain from 2D imagery. Specifically, we utilize the Semi-Global Matching (SGM) algorithm to derive dense disparity maps, which are subsequently converted into georeferenced point clouds. To evaluate the vertical accuracy of the generated DEMs, we perform a comparative analysis against the Lunar Orbiter Laser Altimeter (LOLA) data, serving as the geodetic ground truth. The study analyzes the Root Mean Square Error (RMSE) and Mean Absolute Error (MAE) across different terrain types, including crater rims and flat maria. The results demonstrate the efficacy of the proposed automated pipeline in producing sub-meter resolution topographic models, providing critical insights for automated surface reconstruction and error characterization in planetary mapping."
+authors:
+  - family-names: "Tezer"
+    given-names: "Mehmet Berat"
+    # orcid: "https://orcid.org/0000-0000-0000-0000" 
+  - family-names: "Kaya"
+    given-names: "Yağmur Arzum"
+    # orcid: "https://orcid.org/0000-0000-0000-0000" 
+  - family-names: "Tulu"
+    given-names: "Ebru"
+    # orcid: "https://orcid.org/0000-0000-0000-0000" 
+version: 1.0.0
+date-released: 2026-01-01
+license: CC-BY-4.0
+repository-code: "https://github.com/berattezer/rast26"
