@@ -1,0 +1,15 @@
+name: rast26
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - gdal                  
+  - rasterio              
+  - opencv                
+  - numpy                 
+  - matplotlib            
+  - scipy                 
+  - scikit-image          
+  - requests              
+  - pip
